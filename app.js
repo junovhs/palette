@@ -470,57 +470,40 @@ document.addEventListener('DOMContentLoaded', function() {
     async function downloadProcreateSwatches() {
         if (extractedColors.length === 0) return;
         
-        // Get current palette state to apply all current effects
+        // Get current palette state to include all effects
         const state = getPaletteState();
         
-        // Ensure we have original colors to work with
-        if (!state.originalColors || state.originalColors.length === 0) {
-            state.originalColors = [...extractedColors];
-        }
-        
-        // Apply all current effects to the colors
-        const processedColors = applyAllEffects(state.originalColors, state);
+        // Apply all current effects to the colors before saving
+        let colorsToSave = applyAllEffects([...originalColors], state);
         
         // Create swatches array in the format expected by Procreate
-        const swatches = processedColors.map(color => {
-            // Ensure color object is valid
-            if (!color || typeof color.r === 'undefined' || typeof color.g === 'undefined' || typeof color.b === 'undefined') {
-                // Fallback to white if color is invalid
-                return {
-                    hue: 0,
-                    saturation: 0,
-                    brightness: 1,
-                    alpha: 1,
-                    colorSpace: 0
-                };
-            }
+        const swatches = colorsToSave.map(color => {
+            // Convert RGB to HSB/HSV
+            const { r, g, b } = color;
+            const hsl = rgbToHsl(r, g, b);
             
-            // Convert RGB to HSL first
-            const hsl = rgbToHsl(color.r, color.g, color.b);
-            
-            // Convert HSL to HSB/HSV 
+            // Convert HSL to HSB/HSV (in HSB, V=B is equivalent to L but calculated differently)
+            // Approximation for conversion
             const h = hsl.h / 360; // Procreate uses 0-1 range for hue
             
+            // Adjust saturation and brightness calculations for HSB
             let s, v;
             const l = hsl.l / 100;
-            const saturation = hsl.s / 100;
             
-            // More robust HSB/HSV conversion
             if (l === 0) {
                 s = 0;
                 v = 0;
             } else {
-                v = l + saturation * Math.min(l, 1 - l);
+                v = l + (hsl.s / 100) * Math.min(l, 1 - l);
                 s = v === 0 ? 0 : 2 * (1 - l / v);
             }
             
-            // Ensure values are within 0-1 range and not NaN
             return {
-                hue: Math.max(0, Math.min(1, h)),
-                saturation: Math.max(0, Math.min(1, s)),
-                brightness: Math.max(0, Math.min(1, v)),
+                hue: h,
+                saturation: s,
+                brightness: v,
                 alpha: 1,
-                colorSpace: 0 // HSB/HSV color space
+                colorSpace: 0 // HSB/HSV color space as used by Procreate
             };
         });
         
