@@ -1,3 +1,36 @@
+// Simple client-side authentication
+(function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const userKey = urlParams.get('key');
+  const validKey = 'PROPALETTE2024'; // your secret access key
+  
+  if (userKey === validKey) {
+    localStorage.setItem('hasAccess', 'true');
+  }
+  
+  const hasAccess = localStorage.getItem('hasAccess');
+  
+  if (!hasAccess) {
+    document.body.innerHTML = `
+      <div style="text-align: center; margin-top: 100px;">
+        <h2>🔐 ProPalette Access Required</h2>
+        <p>Please enter your access key:</p>
+        <input type="text" id="accessKey" placeholder="Enter key" />
+        <button onclick="
+          const inputKey = document.getElementById('accessKey').value;
+          if(inputKey === '${validKey}') {
+            localStorage.setItem('hasAccess', 'true');
+            location.reload();
+          } else {
+            alert('Incorrect access key. Please try again.');
+          }
+        ">Unlock</button>
+      </div>
+    `;
+  }
+})();
+
+
 import { analyzeImage, rgbToHsl, hslToRgb, rgbToCssColor, rgbToHex } from './colorUtils.js';
 import { config } from './config.js';
 import { createImagePlaceholder, restoreUploadArea, setupDropHandlers } from './ui-helpers.js';
