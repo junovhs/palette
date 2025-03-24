@@ -2,7 +2,7 @@
 (function() {
   const urlParams = new URLSearchParams(window.location.search);
   const userKey = urlParams.get('key');
-  const validKey = 'PROPALETTE2024'; // your secret access key
+  const validKey = 'ARTISTG9V4'; // your secret access key
   
   if (userKey === validKey) {
     localStorage.setItem('hasAccess', 'true');
