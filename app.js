@@ -1,36 +1,3 @@
-// Simple client-side authentication
-(function() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const userKey = urlParams.get('key');
-  const validKey = 'PROPALETTE2024'; // your secret access key
-  
-  if (userKey === validKey) {
-    localStorage.setItem('hasAccess', 'true');
-  }
-  
-  const hasAccess = localStorage.getItem('hasAccess');
-  
-  if (!hasAccess) {
-    document.body.innerHTML = `
-      <div style="text-align: center; margin-top: 100px;">
-        <h2>🔐 ProPalette Access Required</h2>
-        <p>Please enter your access key:</p>
-        <input type="text" id="accessKey" placeholder="Enter key" />
-        <button onclick="
-          const inputKey = document.getElementById('accessKey').value;
-          if(inputKey === '${validKey}') {
-            localStorage.setItem('hasAccess', 'true');
-            location.reload();
-          } else {
-            alert('Incorrect access key. Please try again.');
-          }
-        ">Unlock</button>
-      </div>
-    `;
-  }
-})();
-
-
 import { analyzeImage, rgbToHsl, hslToRgb, rgbToCssColor, rgbToHex } from './colorUtils.js';
 import { config } from './config.js';
 import { createImagePlaceholder, restoreUploadArea, setupDropHandlers } from './ui-helpers.js';
@@ -41,6 +8,8 @@ import { debounce } from './utils.js';
 import { simplifyPalette } from './paletteSimplifier.js';
 import { applyWarmCoolAdjustment } from './colorWarmCool.js';
 import { initPresetLibrary } from './paletteLibrary.js';
+import { copyPaletteToClipboard } from './clipboardUtils.js'; // Import new function
+import { applyAllEffects } from './paletteStateManager.js';
 
 document.addEventListener('DOMContentLoaded', function() {
     const fileInput = document.getElementById('file-input');
@@ -71,6 +40,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const hueShiftValue = document.getElementById('hue-shift-value');
     const warmCoolSlider = document.getElementById('warm-cool-slider');
     const warmCoolValue = document.getElementById('warm-cool-value');
+    const copyHexButton = document.getElementById('copy-hex'); // Get copy hex button
+    const copyMessage = document.getElementById('copy-message'); // Get copy message
+    
 
     // Initially show the palette view with default gradient
     paletteView.style.display = 'flex';
@@ -95,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let originalColors = [...extractedColors]; // Keep a copy of original colors before filtering
     displayColorPalette(extractedColors);
     paletteTitle.textContent = "Rainbow Gradient";
+    
+    // Load the default image
+    loadDefaultImage();
     
     // Set up color palette title editing
     let isEditingTitle = false;
@@ -163,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function setupDropHandlers(element) {
         if (!element) return;
         
-        // Remove any existing listeners to prevent duplicates
+        // Remove any existing listeners by cloning and replacing the element
         const newElement = element.cloneNode(true);
         if (element.parentNode) {
             element.parentNode.replaceChild(newElement, element);
@@ -188,9 +163,18 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
+        // Only add click handler for the upload area, not for the image placeholder
+        if (element.id === 'upload-area') {
+            element.addEventListener('click', () => {
+                const fileInput = document.getElementById('file-input');
+                if (fileInput) fileInput.click();
+            });
+        }
+        
         return element;
     }
     
+
     function handleFiles(files) {
         if (files.length === 0 || processingImage) return;
         
@@ -405,7 +389,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 processedColors = applyHueShift(processedColors, state.hueShift);
             }
             
-            // Update current colors and display
+            // Update the current colors in state
             state.currentColors = processedColors;
             state.numColors = numColors;
             setPaletteState(state);
@@ -570,28 +554,8 @@ document.addEventListener('DOMContentLoaded', function() {
             state.originalColors = [...unmodifiedColors];
         }
         
-        // Start with original colors
-        let processedColors = [...state.originalColors];
-        
-        // Apply filter if active
-        if (filterName !== 'none' && strength > 0) {
-            processedColors = applyFilterToPalette(processedColors, filterName, strength);
-        }
-        
-        // Apply brightness adjustment if needed
-        if (brightness !== 0) {
-            processedColors = applyBrightnessContrast(processedColors, brightness);
-        }
-        
-        // Apply hue shift if needed
-        if (hueShift !== 0) {
-            processedColors = applyHueShift(processedColors, hueShift);
-        }
-        
-        // Apply warm/cool adjustment if needed
-        if (warmCool !== 0) {
-            processedColors = applyWarmCoolAdjustment(processedColors, warmCool);
-        }
+        // Use the new utility function to apply all effects
+        const processedColors = applyAllEffects(state.originalColors, state);
         
         // Update the current colors in state
         state.currentColors = processedColors;
@@ -691,20 +655,23 @@ document.addEventListener('DOMContentLoaded', function() {
     initPresetLibrary((rgbColors, presetName) => {
         // Update the palette with the selected preset
         originalColors = rgbColors;
-        extractedColors = [...rgbColors];
-        displayColorPalette(extractedColors);
+        unmodifiedColors = [...rgbColors];
+        
+        // Get current state and update sources
+        const state = getPaletteState();
+        state.originalColors = [...rgbColors];
+        
+        // Apply all current filters and effects 
+        const processedColors = applyAllEffects(rgbColors, state);
+        
+        // Update displayed colors
+        extractedColors = [...processedColors];
+        displayColorPalette(processedColors);
         
         // Update palette state
-        setPaletteState({
-            originalColors: [...rgbColors],
-            currentColors: [...rgbColors],
-            numColors: rgbColors.length,
-            filter: 'none',
-            filterStrength: 50,
-            brightness: 0,
-            hueShift: 0,
-            warmCool: 0
-        });
+        state.currentColors = [...processedColors];
+        state.numColors = rgbColors.length;
+        setPaletteState(state);
         
         // Update palette title with preset name
         paletteTitle.textContent = presetName;
@@ -712,4 +679,52 @@ document.addEventListener('DOMContentLoaded', function() {
         // Reset filter sliders
         resetFilterSliders();
     });
+
+    // Copy Hex to Clipboard
+    copyHexButton.addEventListener('click', async () => {
+        const success = await copyPaletteToClipboard(extractedColors);
+        
+        if (success) {
+            copyMessage.textContent = 'Copied palette in HEX format!';
+            copyMessage.classList.add('show');
+            
+            setTimeout(() => {
+                copyMessage.classList.remove('show');
+            }, 3000);
+        } else {
+            copyMessage.textContent = 'Failed to copy palette.';
+            copyMessage.classList.add('show');
+            
+            setTimeout(() => {
+                copyMessage.classList.remove('show');
+            }, 3000);
+        }
+    });
+
+    // Function to load the default image
+    function loadDefaultImage() {
+        const defaultImagePath = "SnowDog.png";
+        
+        // Create a new image element
+        const img = new Image();
+        img.onload = function() {
+            // Reset all filter effects when loading a new image
+            resetPaletteEffects();
+            resetFilterSliders();
+            cachedPaletteName = null;
+            
+            // Create image placeholder
+            const placeholder = createImagePlaceholder(defaultImagePath);
+            setupDropHandlers(placeholder);
+            
+            currentImage = defaultImagePath;
+            
+            // Show loading indicator
+            showLoading();
+            
+            // Process the image
+            resizeAndAnalyzeImage(defaultImagePath);
+        };
+        img.src = defaultImagePath;
+    }
 });

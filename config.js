@@ -10,6 +10,6 @@ export const config = {
     
     // Color analysis settings
     minSaturation: 5, // Minimum saturation percentage to consider a color
-    minLightness: 15, // Minimum lightness percentage
-    maxLightness: 80, // Maximum lightness percentage
+    minLightness: 5, // Minimum lightness percentage
+    maxLightness: 97, // Maximum lightness percentage
 };
