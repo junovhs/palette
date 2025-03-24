@@ -1,35 +1,3 @@
-// Simple client-side authentication
-(function() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const userKey = urlParams.get('key');
-  const validKey = 'PROPALETTE2024'; // your secret access key
-  
-  if (userKey === validKey) {
-    localStorage.setItem('hasAccess', 'true');
-  }
-  
-  const hasAccess = localStorage.getItem('hasAccess');
-  
-  if (!hasAccess) {
-    document.body.innerHTML = `
-      <div style="text-align: center; margin-top: 100px;">
-        <h2>🔐 ProPalette Access Required</h2>
-        <p>Please enter your access key:</p>
-        <input type="text" id="accessKey" placeholder="Enter key" />
-        <button onclick="
-          const inputKey = document.getElementById('accessKey').value;
-          if(inputKey === '${validKey}') {
-            localStorage.setItem('hasAccess', 'true');
-            location.reload();
-          } else {
-            alert('Incorrect access key. Please try again.');
-          }
-        ">Unlock</button>
-      </div>
-    `;
-  }
-})();
-
 import { analyzeImage, rgbToHsl, hslToRgb, rgbToCssColor, rgbToHex } from './colorUtils.js';
 import { config } from './config.js';
 import { createImagePlaceholder, restoreUploadArea, setupDropHandlers } from './ui-helpers.js';
@@ -685,31 +653,39 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize the preset library
     initPresetLibrary((rgbColors, presetName) => {
-        // Update the palette with the selected preset
-        originalColors = rgbColors;
-        unmodifiedColors = [...rgbColors];
+        // First, ensure colors aren't empty
+        if (!rgbColors || rgbColors.length === 0) {
+            console.error('No colors in preset');
+            return;
+        }
+
+        // Ensure we have full color objects
+        originalColors = rgbColors.map(color => ({
+            r: color.r,
+            g: color.g,
+            b: color.b
+        }));
+        unmodifiedColors = [...originalColors];
         
         // Get current state and update sources
         const state = getPaletteState();
-        state.originalColors = [...rgbColors];
+        state.originalColors = [...originalColors];
+        state.numColors = originalColors.length;
         
-        // Apply all current filters and effects 
-        const processedColors = applyAllEffects(rgbColors, state);
+        // Reset all filter and effect sliders
+        resetFilterSliders();
         
-        // Update displayed colors
-        extractedColors = [...processedColors];
-        displayColorPalette(processedColors);
-        
-        // Update palette state
-        state.currentColors = [...processedColors];
-        state.numColors = rgbColors.length;
-        setPaletteState(state);
+        // Trigger the filter application which will use the current slider values
+        applyCurrentFilters();
         
         // Update palette title with preset name
         paletteTitle.textContent = presetName;
         
-        // Reset filter sliders
-        resetFilterSliders();
+        // Ensure color count slider matches preset color count
+        if (colorSlider) {
+            colorSlider.value = originalColors.length.toString();
+            colorCountDisplay.textContent = originalColors.length;
+        }
     });
 
     // Copy Hex to Clipboard
