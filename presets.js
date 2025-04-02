@@ -7344,2577 +7344,201 @@ export const palettePresets = [
     "category": "Mood & Lighting"
   },
   {
-    "name": "Deep - Cool / Espresso Brown",
+    "name": "Image Sampler - Deeper Cool/Neutral Range (Espresso/Ash/Dark)",
     "swatches": [
       {
-        "hue": 0.043650793650793614,
-        "saturation": 0.33870967741935476,
-        "brightness": 0.48627450980392156,
+        "hue": 0.0614035087719298,
+        "saturation": 0.4064171122994652,
+        "brightness": 0.7333333333333333,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.042635658914728695,
-        "saturation": 0.364406779661017,
-        "brightness": 0.4627450980392157,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04166666666666668,
-        "saturation": 0.39285714285714285,
-        "brightness": 0.4392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03787878787878787,
-        "saturation": 0.41509433962264153,
-        "brightness": 0.41568627450980394,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04074074074074076,
-        "saturation": 0.44999999999999996,
-        "brightness": 0.39215686274509803,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.037037037037037035,
-        "saturation": 0.4787234042553192,
-        "brightness": 0.3686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03985507246376813,
-        "saturation": 0.5227272727272727,
-        "brightness": 0.34509803921568627,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03623188405797101,
-        "saturation": 0.5609756097560976,
-        "brightness": 0.3215686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.036231884057971016,
-        "saturation": 0.6052631578947368,
-        "brightness": 0.2980392156862745,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03546099290780143,
-        "saturation": 0.6714285714285714,
-        "brightness": 0.27450980392156865,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.035460992907801414,
-        "saturation": 0.734375,
-        "brightness": 0.25098039215686274,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.031914893617021274,
-        "saturation": 0.810344827586207,
-        "brightness": 0.22745098039215686,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.028985507246376812,
-        "saturation": 0.8846153846153846,
-        "brightness": 0.20392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.01893939393939394,
-        "saturation": 0.9565217391304348,
-        "brightness": 0.1803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.1568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.1411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.12549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.10980392156862745,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.09411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.06274509803921569,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.047058823529411764,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.03137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.01568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0.5,
-        "brightness": 0.00784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0.5,
-        "brightness": 0.01568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0.5,
-        "brightness": 0.023529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0.5,
-        "brightness": 0.03137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0.5,
-        "brightness": 0.0392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Deep - Neutral / Near Black",
-    "swatches": [
-      {
-        "hue": 0.06250000000000001,
-        "saturation": 0.3555555555555556,
-        "brightness": 0.35294117647058826,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0625,
-        "saturation": 0.38095238095238093,
-        "brightness": 0.32941176470588235,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06249999999999999,
-        "saturation": 0.4102564102564103,
-        "brightness": 0.3058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0625,
-        "saturation": 0.4444444444444444,
-        "brightness": 0.2823529411764706,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06249999999999999,
-        "saturation": 0.4848484848484849,
-        "brightness": 0.25882352941176473,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0625,
-        "saturation": 0.5333333333333333,
-        "brightness": 0.23529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0625,
-        "saturation": 0.5925925925925926,
-        "brightness": 0.21176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0625,
-        "saturation": 0.6666666666666666,
-        "brightness": 0.18823529411764706,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05913978494623656,
-        "saturation": 0.7380952380952381,
-        "brightness": 0.16470588235294117,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05913978494623656,
-        "saturation": 0.8611111111111112,
-        "brightness": 0.1411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05555555555555555,
-        "saturation": 1,
-        "brightness": 0.11764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.038461538461538464,
-        "saturation": 1,
-        "brightness": 0.10196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.022727272727272724,
-        "saturation": 1,
-        "brightness": 0.08627450980392157,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.07058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.054901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.023529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.00784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.00392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.00784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.011764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.01568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.0196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.023529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.027450980392156862,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.03137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.03529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.0392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0.043137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Deep - Warm / Mahogany Red-Brown",
-    "swatches": [
-      {
-        "hue": 0.04545454545454547,
-        "saturation": 0.5409836065573771,
-        "brightness": 0.47843137254901963,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.044776119402985086,
-        "saturation": 0.5775862068965516,
-        "brightness": 0.4549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04228855721393034,
-        "saturation": 0.6090909090909091,
-        "brightness": 0.43137254901960786,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04166666666666668,
-        "saturation": 0.6538461538461539,
-        "brightness": 0.40784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.039215686274509796,
-        "saturation": 0.6938775510204083,
-        "brightness": 0.3843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.038647342995169094,
-        "saturation": 0.75,
-        "brightness": 0.3607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03623188405797101,
-        "saturation": 0.8023255813953489,
-        "brightness": 0.33725490196078434,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03381642512077295,
-        "saturation": 0.8624999999999999,
-        "brightness": 0.3137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03140096618357487,
-        "saturation": 0.9324324324324325,
-        "brightness": 0.2901960784313726,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.02696078431372549,
-        "saturation": 1,
-        "brightness": 0.26666666666666666,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.013440860215053764,
-        "saturation": 1,
-        "brightness": 0.24313725490196078,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.2196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.19607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.17254901960784313,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.14901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.12549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.10196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.054901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.03137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.00784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.058823529411764705,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.09803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.11764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.13725490196078433,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.1568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Light - Golden Honey",
-    "swatches": [
-      {
-        "hue": 0.12096774193548389,
-        "saturation": 0.24505928853754944,
-        "brightness": 0.9921568627450981,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11737089201877937,
-        "saturation": 0.28286852589641426,
-        "brightness": 0.984313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11458333333333333,
-        "saturation": 0.321285140562249,
-        "brightness": 0.9764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1136363636363636,
-        "saturation": 0.3562753036437247,
-        "brightness": 0.9686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11168384879725085,
-        "saturation": 0.39591836734693875,
-        "brightness": 0.9607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11111111111111112,
-        "saturation": 0.4320987654320988,
-        "brightness": 0.9529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11061946902654866,
-        "saturation": 0.46887966804979253,
-        "brightness": 0.9450980392156862,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11065573770491804,
-        "saturation": 0.5104602510460251,
-        "brightness": 0.9372549019607843,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1111111111111111,
-        "saturation": 0.5466101694915254,
-        "brightness": 0.9254901960784314,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1316425120772947,
-        "saturation": 0.5897435897435898,
-        "brightness": 0.9176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1232876712328767,
-        "saturation": 0.6293103448275862,
-        "brightness": 0.9098039215686274,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12365591397849461,
-        "saturation": 0.673913043478261,
-        "brightness": 0.9019607843137255,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12269938650306748,
-        "saturation": 0.7149122807017544,
-        "brightness": 0.8941176470588236,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12254901960784315,
-        "saturation": 0.7555555555555555,
-        "brightness": 0.8823529411764706,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12265917602996255,
-        "saturation": 0.7982062780269058,
-        "brightness": 0.8745098039215686,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12129629629629629,
-        "saturation": 0.821917808219178,
-        "brightness": 0.8588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11996336996336998,
-        "saturation": 0.8425925925925927,
-        "brightness": 0.8470588235294118,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11839708561020035,
-        "saturation": 0.8591549295774648,
-        "brightness": 0.8352941176470589,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1171171171171171,
-        "saturation": 0.8809523809523809,
-        "brightness": 0.8235294117647058,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1164874551971326,
-        "saturation": 0.8985507246376812,
-        "brightness": 0.8117647058823529,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11503623188405797,
-        "saturation": 0.9064039408866995,
-        "brightness": 0.796078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11293260473588344,
-        "saturation": 0.915,
-        "brightness": 0.7843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1108058608058608,
-        "saturation": 0.9238578680203046,
-        "brightness": 0.7725490196078432,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10865561694290976,
-        "saturation": 0.9329896907216494,
-        "brightness": 0.7607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10648148148148147,
-        "saturation": 0.9424083769633509,
-        "brightness": 0.7490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10428305400372438,
-        "saturation": 0.9521276595744681,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10205992509363297,
-        "saturation": 0.9621621621621621,
-        "brightness": 0.7254901960784313,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09981167608286252,
-        "saturation": 0.9725274725274725,
-        "brightness": 0.7137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09753787878787878,
-        "saturation": 0.9832402234636872,
-        "brightness": 0.7019607843137254,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09523809523809523,
-        "saturation": 0.9943181818181819,
-        "brightness": 0.6901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Light - Neutral Beige",
-    "swatches": [
-      {
-        "hue": 0.09595959595959598,
-        "saturation": 0.13095238095238104,
-        "brightness": 0.9882352941176471,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09166666666666669,
-        "saturation": 0.16,
-        "brightness": 0.9803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0942028985507246,
-        "saturation": 0.18623481781376522,
-        "brightness": 0.9686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09433962264150943,
-        "saturation": 0.21632653061224494,
-        "brightness": 0.9607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.096045197740113,
-        "saturation": 0.24380165289256195,
-        "brightness": 0.9490196078431372,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09595959595959598,
-        "saturation": 0.27499999999999997,
-        "brightness": 0.9411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09722222222222221,
-        "saturation": 0.3037974683544304,
-        "brightness": 0.9294117647058824,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09829059829059827,
-        "saturation": 0.3319148936170212,
-        "brightness": 0.9215686274509803,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0992063492063492,
-        "saturation": 0.3620689655172413,
-        "brightness": 0.9098039215686274,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09925093632958798,
-        "saturation": 0.38864628820960695,
-        "brightness": 0.8980392156862745,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10069444444444448,
-        "saturation": 0.42290748898678415,
-        "brightness": 0.8901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10066006600660066,
-        "saturation": 0.45089285714285715,
-        "brightness": 0.8784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10124610591900308,
-        "saturation": 0.4841628959276018,
-        "brightness": 0.8666666666666667,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10029498525073748,
-        "saturation": 0.5159817351598173,
-        "brightness": 0.8588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.1022408963585434,
-        "saturation": 0.5509259259259259,
-        "brightness": 0.8470588235294118,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10215053763440861,
-        "saturation": 0.5821596244131456,
-        "brightness": 0.8352941176470589,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10178117048346057,
-        "saturation": 0.6208530805687204,
-        "brightness": 0.8274509803921568,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10294117647058826,
-        "saturation": 0.6538461538461539,
-        "brightness": 0.8156862745098039,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10283687943262411,
-        "saturation": 0.6878048780487805,
-        "brightness": 0.803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10317460317460318,
-        "saturation": 0.7277227722772277,
-        "brightness": 0.792156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.10159817351598176,
-        "saturation": 0.7373737373737373,
-        "brightness": 0.7764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09977324263038549,
-        "saturation": 0.7538461538461538,
-        "brightness": 0.7647058823529411,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09750566893424034,
-        "saturation": 0.765625,
-        "brightness": 0.7529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09523809523809525,
-        "saturation": 0.7777777777777778,
-        "brightness": 0.7411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09346846846846846,
-        "saturation": 0.7956989247311828,
-        "brightness": 0.7294117647058823,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09121621621621623,
-        "saturation": 0.808743169398907,
-        "brightness": 0.7176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08896396396396396,
-        "saturation": 0.8222222222222222,
-        "brightness": 0.7058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08724832214765103,
-        "saturation": 0.8418079096045197,
-        "brightness": 0.6941176470588235,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08558558558558559,
-        "saturation": 0.8554913294797688,
-        "brightness": 0.6784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08333333333333333,
-        "saturation": 0.8705882352941176,
-        "brightness": 0.6666666666666666,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Light-Medium - Subtle Olive",
-    "swatches": [
-      {
-        "hue": 0.1264367816091954,
-        "saturation": 0.11836734693877554,
-        "brightness": 0.9607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.12121212121212123,
-        "saturation": 0.13636363636363635,
-        "brightness": 0.9490196078431372,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11965811965811972,
-        "saturation": 0.1625,
-        "brightness": 0.9411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.11627906976744184,
-        "saturation": 0.1814345991561182,
-        "brightness": 0.9294117647058824,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08602150537634408,
-        "saturation": 0.1324786324786325,
-        "brightness": 0.9176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08796296296296295,
-        "saturation": 0.1551724137931034,
-        "brightness": 0.9098039215686274,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08749999999999993,
-        "saturation": 0.17467248908296942,
-        "brightness": 0.8980392156862745,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09090909090909094,
-        "saturation": 0.1946902654867256,
-        "brightness": 0.8862745098039215,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09183673469387753,
-        "saturation": 0.21874999999999997,
-        "brightness": 0.8784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09119496855345914,
-        "saturation": 0.23981900452488691,
-        "brightness": 0.8666666666666667,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09195402298850576,
-        "saturation": 0.2648401826484018,
-        "brightness": 0.8588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09408602150537639,
-        "saturation": 0.2870370370370371,
-        "brightness": 0.8470588235294118,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09203980099502489,
-        "saturation": 0.3130841121495328,
-        "brightness": 0.8392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0928571428571429,
-        "saturation": 0.3317535545023696,
-        "brightness": 0.8274509803921568,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09111111111111113,
-        "saturation": 0.35885167464114825,
-        "brightness": 0.8196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09188034188034185,
-        "saturation": 0.3786407766990291,
-        "brightness": 0.807843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09036144578313253,
-        "saturation": 0.40686274509803927,
-        "brightness": 0.8,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09108527131782945,
-        "saturation": 0.42786069651741293,
-        "brightness": 0.788235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08974358974358976,
-        "saturation": 0.45728643216080406,
-        "brightness": 0.7803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0904255319148936,
-        "saturation": 0.47959183673469385,
-        "brightness": 0.7686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09013605442176874,
-        "saturation": 0.5077720207253886,
-        "brightness": 0.7568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08823529411764706,
-        "saturation": 0.5340314136125655,
-        "brightness": 0.7490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08962264150943393,
-        "saturation": 0.5638297872340425,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08868501529051988,
-        "saturation": 0.5891891891891892,
-        "brightness": 0.7254901960784313,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08918128654970758,
-        "saturation": 0.6229508196721312,
-        "brightness": 0.7176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0883190883190883,
-        "saturation": 0.65,
-        "brightness": 0.7058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08953168044077135,
-        "saturation": 0.6836158192090396,
-        "brightness": 0.6941176470588235,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08870967741935482,
-        "saturation": 0.7126436781609196,
-        "brightness": 0.6823529411764706,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08984375,
-        "saturation": 0.7485380116959065,
-        "brightness": 0.6705882352941176,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08905852417302801,
-        "saturation": 0.7797619047619047,
+        "hue": 0.0601851851851852,
+        "saturation": 0.42857142857142855,
         "brightness": 0.6588235294117647,
         "alpha": 1,
         "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium - Cool Rosy Beige",
-    "swatches": [
-      {
-        "hue": 0.05208333333333334,
-        "saturation": 0.2096069868995633,
-        "brightness": 0.8980392156862745,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.056603773584905655,
-        "saturation": 0.2345132743362831,
-        "brightness": 0.8862745098039215,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05847953216374265,
-        "saturation": 0.25560538116591924,
-        "brightness": 0.8745098039215686,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06010928961748635,
-        "saturation": 0.2772727272727273,
-        "brightness": 0.8627450980392157,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06153846153846154,
-        "saturation": 0.2995391705069124,
-        "brightness": 0.8509803921568627,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06280193236714973,
-        "saturation": 0.3224299065420561,
-        "brightness": 0.8392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06392694063926944,
-        "saturation": 0.3459715639810427,
-        "brightness": 0.8274509803921568,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06493506493506494,
-        "saturation": 0.37019230769230776,
-        "brightness": 0.8156862745098039,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06458333333333337,
-        "saturation": 0.39024390243902446,
-        "brightness": 0.803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06547619047619048,
-        "saturation": 0.41584158415841577,
-        "brightness": 0.792156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06628787878787877,
-        "saturation": 0.4422110552763819,
-        "brightness": 0.7803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06702898550724638,
-        "saturation": 0.46938775510204084,
-        "brightness": 0.7686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06770833333333334,
-        "saturation": 0.49740932642487046,
-        "brightness": 0.7568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06666666666666664,
-        "saturation": 0.5235602094240838,
-        "brightness": 0.7490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0673076923076923,
-        "saturation": 0.5531914893617021,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06697819314641744,
-        "saturation": 0.5783783783783784,
-        "brightness": 0.7254901960784313,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06481481481481481,
-        "saturation": 0.5934065934065934,
-        "brightness": 0.7137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0617283950617284,
-        "saturation": 0.6033519553072625,
-        "brightness": 0.7019607843137254,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05963302752293578,
-        "saturation": 0.6193181818181818,
-        "brightness": 0.6901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.056574923547400596,
-        "saturation": 0.6300578034682082,
-        "brightness": 0.6784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05401234567901234,
-        "saturation": 0.6390532544378698,
-        "brightness": 0.6627450980392157,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05198776758409785,
-        "saturation": 0.6566265060240964,
-        "brightness": 0.6509803921568628,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04892966360856271,
-        "saturation": 0.6687116564417177,
-        "brightness": 0.6392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04587155963302752,
-        "saturation": 0.68125,
-        "brightness": 0.6274509803921569,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.042813455657492346,
-        "saturation": 0.694267515923567,
-        "brightness": 0.615686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.040909090909090916,
-        "saturation": 0.7142857142857143,
-        "brightness": 0.6039215686274509,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03787878787878788,
-        "saturation": 0.728476821192053,
-        "brightness": 0.592156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03516819571865445,
-        "saturation": 0.7414965986394557,
-        "brightness": 0.5764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03211009174311926,
-        "saturation": 0.7569444444444444,
-        "brightness": 0.5647058823529412,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0290519877675841,
-        "saturation": 0.7730496453900709,
-        "brightness": 0.5529411764705883,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium - True Neutral / Balanced",
-    "swatches": [
-      {
-        "hue": 0.0833333333333333,
-        "saturation": 0.30769230769230776,
-        "brightness": 0.8666666666666667,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06981981981981984,
-        "saturation": 0.33944954128440363,
-        "brightness": 0.8549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05696202531645567,
-        "saturation": 0.3674418604651163,
-        "brightness": 0.8431372549019608,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.045098039215686274,
-        "saturation": 0.4009433962264151,
-        "brightness": 0.8313725490196079,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03518518518518517,
-        "saturation": 0.43062200956937796,
-        "brightness": 0.8196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.026315789473684213,
-        "saturation": 0.46116504854368934,
-        "brightness": 0.807843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.018333333333333344,
-        "saturation": 0.4926108374384236,
-        "brightness": 0.796078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.011111111111111118,
-        "saturation": 0.525,
-        "brightness": 0.7843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0045454545454545504,
-        "saturation": 0.5583756345177665,
-        "brightness": 0.7725490196078432,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9985632183908045,
-        "saturation": 0.5979381443298969,
-        "brightness": 0.7607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.992,
-        "saturation": 0.6578947368421053,
-        "brightness": 0.7450980392156863,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9909560723514211,
-        "saturation": 0.6861702127659574,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9886363636363636,
-        "saturation": 0.7135135135135134,
-        "brightness": 0.7254901960784313,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9876543209876543,
-        "saturation": 0.7417582417582418,
-        "brightness": 0.7137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9855072463768115,
-        "saturation": 0.770949720670391,
-        "brightness": 0.7019607843137254,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9846335697399528,
-        "saturation": 0.8011363636363636,
-        "brightness": 0.6901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9826388888888888,
-        "saturation": 0.8323699421965317,
-        "brightness": 0.6784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.981859410430839,
-        "saturation": 0.8647058823529411,
-        "brightness": 0.6666666666666666,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.98,
-        "saturation": 0.8982035928143712,
-        "brightness": 0.6549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9793028322440088,
-        "saturation": 0.9329268292682927,
-        "brightness": 0.6431372549019608,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9791666666666666,
-        "saturation": 0.95,
-        "brightness": 0.6274509803921569,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.977924944812362,
-        "saturation": 0.9679487179487178,
-        "brightness": 0.611764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9787472035794184,
-        "saturation": 0.980263157894737,
-        "brightness": 0.596078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.979591836734694,
-        "saturation": 0.9932432432432433,
-        "brightness": 0.5803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9814814814814815,
-        "saturation": 1,
-        "brightness": 0.5647058823529412,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9833333333333334,
-        "saturation": 1,
-        "brightness": 0.5490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9865196078431372,
-        "saturation": 1,
-        "brightness": 0.5333333333333333,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9886363636363636,
-        "saturation": 1,
-        "brightness": 0.5176470588235295,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9921875,
-        "saturation": 1,
-        "brightness": 0.5019607843137255,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.9946236559139785,
-        "saturation": 1,
-        "brightness": 0.48627450980392156,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium - Warm Tan / Caramel",
-    "swatches": [
-      {
-        "hue": 0.08627450980392158,
-        "saturation": 0.3556485355648536,
-        "brightness": 0.9372549019607843,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08608058608058607,
-        "saturation": 0.3855932203389831,
-        "brightness": 0.9254901960784314,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08506944444444443,
-        "saturation": 0.41201716738197425,
-        "brightness": 0.9137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08415841584158418,
-        "saturation": 0.4391304347826087,
-        "brightness": 0.9019607843137255,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08255451713395638,
-        "saturation": 0.46929824561403516,
-        "brightness": 0.8941176470588236,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08333333333333333,
-        "saturation": 0.49777777777777776,
-        "brightness": 0.8823529411764706,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08404558404558406,
-        "saturation": 0.5270270270270271,
-        "brightness": 0.8705882352941177,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08333333333333336,
-        "saturation": 0.5570776255707762,
-        "brightness": 0.8588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.082010582010582,
-        "saturation": 0.5833333333333333,
-        "brightness": 0.8470588235294118,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08207070707070706,
-        "saturation": 0.616822429906542,
-        "brightness": 0.8392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08150851581508518,
-        "saturation": 0.6492890995260663,
-        "brightness": 0.8274509803921568,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08098591549295774,
-        "saturation": 0.6826923076923077,
-        "brightness": 0.8156862745098039,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07990867579908675,
-        "saturation": 0.7121951219512195,
-        "brightness": 0.803921568627451,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0794701986754967,
-        "saturation": 0.7475247524752474,
-        "brightness": 0.792156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07961783439490445,
-        "saturation": 0.785,
-        "brightness": 0.7843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07700421940928269,
-        "saturation": 0.8020304568527918,
-        "brightness": 0.7725490196078432,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07537154989384288,
-        "saturation": 0.8134715025906737,
-        "brightness": 0.7568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0732484076433121,
-        "saturation": 0.8263157894736842,
-        "brightness": 0.7450980392156863,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07112526539278131,
-        "saturation": 0.8395721925133689,
-        "brightness": 0.7333333333333333,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07006369426751591,
-        "saturation": 0.8579234972677596,
-        "brightness": 0.7176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06794055201698514,
-        "saturation": 0.8722222222222222,
-        "brightness": 0.7058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06581740976645435,
-        "saturation": 0.8870056497175142,
-        "brightness": 0.6941176470588235,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0641025641025641,
-        "saturation": 0.9017341040462428,
-        "brightness": 0.6784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06196581196581197,
-        "saturation": 0.9176470588235294,
-        "brightness": 0.6666666666666666,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06021505376344086,
-        "saturation": 0.9337349397590362,
-        "brightness": 0.6509803921568628,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05806451612903226,
-        "saturation": 0.950920245398773,
-        "brightness": 0.6392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05591397849462366,
-        "saturation": 0.9687499999999999,
-        "brightness": 0.6274509803921569,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05337690631808278,
-        "saturation": 0.9807692307692308,
-        "brightness": 0.611764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05043859649122808,
-        "saturation": 0.9934640522875817,
-        "brightness": 0.6,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04666666666666666,
-        "saturation": 1,
-        "brightness": 0.5882352941176471,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium-Deep - Golden Bronze",
-    "swatches": [
-      {
-        "hue": 0.09722222222222221,
-        "saturation": 0.5133689839572192,
-        "brightness": 0.7333333333333333,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.09333333333333331,
-        "saturation": 0.5464480874316939,
-        "brightness": 0.7176470588235294,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0889967637540453,
-        "saturation": 0.5754189944134078,
-        "brightness": 0.7019607843137254,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08566978193146418,
-        "saturation": 0.6114285714285714,
-        "brightness": 0.6862745098039216,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.08181818181818183,
-        "saturation": 0.6432748538011696,
-        "brightness": 0.6705882352941176,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07894736842105264,
-        "saturation": 0.6826347305389221,
-        "brightness": 0.6549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.07692307692307694,
-        "saturation": 0.7177914110429447,
-        "brightness": 0.6392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
       },
       {
-        "hue": 0.0743801652892562,
-        "saturation": 0.761006289308176,
+        "hue": 0.04726368159203981,
+        "saturation": 0.42138364779874216,
         "brightness": 0.6235294117647059,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.07123655913978495,
-        "saturation": 0.7999999999999999,
-        "brightness": 0.6078431372549019,
+        "hue": 0.05026455026455026,
+        "saturation": 0.47727272727272735,
+        "brightness": 0.5176470588235295,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06901041666666667,
-        "saturation": 0.847682119205298,
-        "brightness": 0.592156862745098,
+        "hue": 0.058974358974358966,
+        "saturation": 0.5284552845528455,
+        "brightness": 0.4823529411764706,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06743002544529263,
-        "saturation": 0.891156462585034,
-        "brightness": 0.5764705882352941,
+        "hue": 0.05932203389830507,
+        "saturation": 0.5315315315315315,
+        "brightness": 0.43529411764705883,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06430446194225721,
-        "saturation": 0.9071428571428571,
-        "brightness": 0.5490196078431373,
+        "hue": 0.0545977011494253,
+        "saturation": 0.5686274509803921,
+        "brightness": 0.4,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06097560975609756,
-        "saturation": 0.924812030075188,
-        "brightness": 0.5215686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05742296918767506,
-        "saturation": 0.9444444444444444,
-        "brightness": 0.49411764705882355,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.053623188405797106,
-        "saturation": 0.9663865546218487,
-        "brightness": 0.4666666666666667,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.048484848484848485,
-        "saturation": 0.9821428571428572,
-        "brightness": 0.4392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.044444444444444446,
-        "saturation": 1,
-        "brightness": 0.4117647058823529,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03571428571428571,
-        "saturation": 1,
-        "brightness": 0.3843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.025641025641025637,
-        "saturation": 1,
-        "brightness": 0.3568627450980392,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.013888888888888888,
-        "saturation": 1,
-        "brightness": 0.32941176470588235,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.3058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.2784313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.2549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.22745098039215686,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.20392156862745098,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.17647058823529413,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.15294117647058825,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.12549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.10196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.07450980392156863,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium-Deep - Neutral / Rich Brown",
-    "swatches": [
-      {
-        "hue": 0.06981981981981981,
-        "saturation": 0.44311377245508987,
-        "brightness": 0.6549019607843137,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06578947368421052,
-        "saturation": 0.4691358024691357,
-        "brightness": 0.6352941176470588,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06329113924050632,
-        "saturation": 0.5,
-        "brightness": 0.6196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.059670781893004114,
-        "saturation": 0.5294117647058824,
-        "brightness": 0.6,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.055555555555555546,
-        "saturation": 0.563758389261745,
-        "brightness": 0.5843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.052325581395348826,
-        "saturation": 0.5972222222222223,
-        "brightness": 0.5647058823529412,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.050561797752808994,
-        "saturation": 0.6357142857142857,
-        "brightness": 0.5490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04629629629629631,
-        "saturation": 0.6666666666666666,
-        "brightness": 0.5294117647058824,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04301075268817205,
-        "saturation": 0.7099236641221374,
-        "brightness": 0.5137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04035087719298246,
-        "saturation": 0.753968253968254,
-        "brightness": 0.49411764705882355,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0391156462585034,
-        "saturation": 0.8032786885245902,
-        "brightness": 0.47843137254901963,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03508771929824561,
-        "saturation": 0.8260869565217391,
-        "brightness": 0.45098039215686275,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.031135531135531136,
-        "saturation": 0.8425925925925927,
-        "brightness": 0.4235294117647059,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.02490421455938697,
-        "saturation": 0.8613861386138615,
-        "brightness": 0.396078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.020080321285140562,
-        "saturation": 0.8829787234042553,
-        "brightness": 0.3686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.012658227848101266,
-        "saturation": 0.9080459770114943,
-        "brightness": 0.3411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0044444444444444444,
-        "saturation": 0.9375,
+        "hue": 0.06462585034013606,
+        "saturation": 0.6124999999999999,
         "brightness": 0.3137254901960784,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.9953703703703703,
-        "saturation": 0.9863013698630138,
-        "brightness": 0.28627450980392155,
+        "hue": 0.0606060606060606,
+        "saturation": 0.6285714285714286,
+        "brightness": 0.27450980392156865,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.25882352941176473,
+        "hue": 0.06349206349206349,
+        "saturation": 0.7241379310344828,
+        "brightness": 0.22745098039215686,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0,
+        "hue": 0.04807692307692307,
+        "saturation": 0.28571428571428575,
+        "brightness": 0.7137254901960784,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04807692307692307,
+        "saturation": 0.3023255813953489,
+        "brightness": 0.6745098039215687,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04629629629629626,
+        "saturation": 0.32926829268292684,
+        "brightness": 0.6431372549019608,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.05151515151515151,
+        "saturation": 0.3503184713375796,
+        "brightness": 0.615686274509804,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.051724137931034496,
+        "saturation": 0.3866666666666667,
+        "brightness": 0.5882352941176471,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04999999999999998,
+        "saturation": 0.4225352112676056,
+        "brightness": 0.5568627450980392,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.051075268817204304,
+        "saturation": 0.4626865671641791,
+        "brightness": 0.5254901960784314,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04947916666666668,
+        "saturation": 0.5,
+        "brightness": 0.5019607843137255,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04947916666666668,
+        "saturation": 0.5333333333333333,
+        "brightness": 0.47058823529411764,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04871794871794873,
+        "saturation": 0.5752212389380531,
+        "brightness": 0.44313725490196076,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04871794871794873,
+        "saturation": 0.6190476190476191,
+        "brightness": 0.4117647058823529,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04871794871794873,
+        "saturation": 0.6701030927835051,
+        "brightness": 0.3803921568627451,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04797979797979798,
+        "saturation": 0.7333333333333334,
+        "brightness": 0.35294117647058826,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04871794871794871,
+        "saturation": 0.7926829268292683,
+        "brightness": 0.3215686274509804,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.046875,
+        "saturation": 0.8648648648648648,
+        "brightness": 0.2901960784313726,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04497354497354497,
+        "saturation": 0.9402985074626866,
+        "brightness": 0.2627450980392157,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.03672316384180791,
         "saturation": 1,
         "brightness": 0.23137254901960785,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0,
+        "hue": 0.0196078431372549,
         "saturation": 1,
-        "brightness": 0.20784313725490197,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.1843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.1607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.13725490196078433,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.11372549019607843,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.09019607843137255,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.06666666666666667,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.043137254901960784,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.0196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 0,
-        "brightness": 0,
-        "alpha": 1,
-        "colorSpace": 0
-      }
-    ],
-    "category": "Skin Tone Foundations"
-  },
-  {
-    "name": "Medium-Deep - Reddish Brown / Copper",
-    "swatches": [
-      {
-        "hue": 0.05902777777777776,
-        "saturation": 0.48,
-        "brightness": 0.7843137254901961,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05666666666666664,
-        "saturation": 0.5102040816326531,
-        "brightness": 0.7686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.054487179487179495,
-        "saturation": 0.5416666666666666,
-        "brightness": 0.7529411764705882,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05246913580246914,
-        "saturation": 0.574468085106383,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05059523809523811,
-        "saturation": 0.6086956521739131,
-        "brightness": 0.7215686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04782608695652175,
-        "saturation": 0.638888888888889,
-        "brightness": 0.7058823529411765,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.046218487394957986,
-        "saturation": 0.6761363636363636,
-        "brightness": 0.6901960784313725,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04607046070460704,
-        "saturation": 0.7151162790697675,
-        "brightness": 0.6745098039215687,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.043650793650793655,
-        "saturation": 0.75,
-        "brightness": 0.6588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0423076923076923,
-        "saturation": 0.7926829268292683,
-        "brightness": 0.6431372549019608,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.041044776119402986,
-        "saturation": 0.8375,
-        "brightness": 0.6274509803921569,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03787878787878788,
-        "saturation": 0.8571428571428571,
-        "brightness": 0.6039215686274509,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.03515625,
-        "saturation": 0.870748299319728,
-        "brightness": 0.5764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.030666666666666672,
-        "saturation": 0.8865248226950355,
-        "brightness": 0.5529411764705883,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.027548209366391185,
-        "saturation": 0.9029850746268657,
-        "brightness": 0.5254901960784314,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.022598870056497175,
-        "saturation": 0.921875,
-        "brightness": 0.5019607843137255,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.019005847953216377,
-        "saturation": 0.9421487603305785,
-        "brightness": 0.4745098039215686,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.012121212121212121,
-        "saturation": 0.9565217391304348,
-        "brightness": 0.45098039215686275,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.00634920634920635,
-        "saturation": 0.9722222222222222,
-        "brightness": 0.4235294117647059,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.4,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.37254901960784315,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.34509803921568627,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.3215686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.29411764705882354,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.27058823529411763,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.24313725490196078,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.2196078431372549,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0,
-        "saturation": 1,
-        "brightness": 0.19215686274509805,
+        "brightness": 0.2,
         "alpha": 1,
         "colorSpace": 0
       },
@@ -9928,7 +7552,7 @@ export const palettePresets = [
       {
         "hue": 0,
         "saturation": 1,
-        "brightness": 0.1411764705882353,
+        "brightness": 0.14901960784313725,
         "alpha": 1,
         "colorSpace": 0
       }
@@ -9936,215 +7560,431 @@ export const palettePresets = [
     "category": "Skin Tone Foundations"
   },
   {
-    "name": "Very Fair - Cool Rosy Porcelain",
+    "name": "Image Sampler - Deeper Warm Range (Bronze/Copper/Red-Brown)",
     "swatches": [
       {
-        "hue": 0,
-        "saturation": 0.03529411764705881,
-        "brightness": 1,
+        "hue": 0.07843137254901962,
+        "saturation": 0.33830845771144274,
+        "brightness": 0.788235294117647,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.012820512820512766,
-        "saturation": 0.051181102362204765,
-        "brightness": 0.996078431372549,
+        "hue": 0.06666666666666665,
+        "saturation": 0.39473684210526316,
+        "brightness": 0.7450980392156863,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.02777777777777791,
-        "saturation": 0.07114624505928861,
-        "brightness": 0.9921568627450981,
+        "hue": 0.06439393939393938,
+        "saturation": 0.4835164835164835,
+        "brightness": 0.7137254901960784,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03030303030303019,
-        "saturation": 0.08730158730158732,
-        "brightness": 0.9882352941176471,
+        "hue": 0.05882352941176471,
+        "saturation": 0.5120481927710844,
+        "brightness": 0.6509803921568628,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.026666666666666766,
-        "saturation": 0.09999999999999999,
-        "brightness": 0.9803921568627451,
+        "hue": 0.062222222222222213,
+        "saturation": 0.5033557046979865,
+        "brightness": 0.5843137254901961,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.02976190476190467,
+        "hue": 0.06306306306306306,
+        "saturation": 0.5285714285714286,
+        "brightness": 0.5490196078431373,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.058974358974358966,
+        "saturation": 0.5284552845528455,
+        "brightness": 0.4823529411764706,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.05932203389830507,
+        "saturation": 0.5315315315315315,
+        "brightness": 0.43529411764705883,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0545977011494253,
+        "saturation": 0.5686274509803921,
+        "brightness": 0.4,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.05228758169934641,
+        "saturation": 0.5425531914893617,
+        "brightness": 0.3686274509803922,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07051282051282053,
+        "saturation": 0.5360824742268041,
+        "brightness": 0.7607843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07079646017699116,
+        "saturation": 0.6042780748663101,
+        "brightness": 0.7333333333333333,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07046070460704605,
+        "saturation": 0.6833333333333333,
+        "brightness": 0.7058823529411765,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07733333333333332,
+        "saturation": 0.7530120481927711,
+        "brightness": 0.6509803921568628,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07702020202020202,
+        "saturation": 0.8354430379746836,
+        "brightness": 0.6196078431372549,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07751937984496124,
+        "saturation": 0.8896551724137931,
+        "brightness": 0.5686274509803921,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0767195767195767,
+        "saturation": 0.9473684210526315,
+        "brightness": 0.5215686274509804,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0763888888888889,
+        "saturation": 1,
+        "brightness": 0.47058823529411764,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0794392523364486,
+        "saturation": 0.6079545454545455,
+        "brightness": 0.6901960784313725,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.057471264367816105,
+        "saturation": 0.5178571428571429,
+        "brightness": 0.6588235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06491228070175441,
+        "saturation": 0.59375,
+        "brightness": 0.6274509803921569,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06701030927835053,
+        "saturation": 0.638157894736842,
+        "brightness": 0.596078431372549,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06902356902356903,
+        "saturation": 0.6874999999999999,
+        "brightness": 0.5647058823529412,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07095709570957097,
+        "saturation": 0.7426470588235294,
+        "brightness": 0.5333333333333333,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07281553398058253,
+        "saturation": 0.8046875,
+        "brightness": 0.5019607843137255,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07460317460317462,
+        "saturation": 0.875,
+        "brightness": 0.47058823529411764,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0763239875389408,
+        "saturation": 0.9553571428571429,
+        "brightness": 0.4392156862745098,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07371794871794872,
+        "saturation": 1,
+        "brightness": 0.40784313725490196,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06597222222222222,
+        "saturation": 1,
+        "brightness": 0.3764705882352941,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.056818181818181816,
+        "saturation": 1,
+        "brightness": 0.34509803921568627,
+        "alpha": 1,
+        "colorSpace": 0
+      }
+    ],
+    "category": "Skin Tone Foundations"
+  },
+  {
+    "name": "Image Sampler - Lightest Range (Pink/Neutral/Yellow)",
+    "swatches": [
+      {
+        "hue": 0.07812500000000001,
+        "saturation": 0.1285140562248996,
+        "brightness": 0.9764705882352941,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07142857142857136,
+        "saturation": 0.08536585365853662,
+        "brightness": 0.9647058823529412,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.09090909090909094,
+        "saturation": 0.13524590163934436,
+        "brightness": 0.9568627450980393,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.11382113821138207,
+        "saturation": 0.16734693877551018,
+        "brightness": 0.9607843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07738095238095231,
         "saturation": 0.11290322580645155,
         "brightness": 0.9725490196078431,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.032258064516129066,
-        "saturation": 0.12601626016260165,
-        "brightness": 0.9647058823529412,
+        "hue": 0.09595959595959591,
+        "saturation": 0.13692946058091285,
+        "brightness": 0.9450980392156862,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.034313725490196074,
-        "saturation": 0.13934426229508204,
-        "brightness": 0.9568627450980393,
+        "hue": 0.07264957264957263,
+        "saturation": 0.15789473684210528,
+        "brightness": 0.9686274509803922,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03603603603603605,
-        "saturation": 0.152892561983471,
-        "brightness": 0.9490196078431372,
+        "hue": 0.07246376811594207,
+        "saturation": 0.1847389558232932,
+        "brightness": 0.9764705882352941,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.037499999999999985,
-        "saturation": 0.16666666666666666,
+        "hue": 0.07526881720430102,
+        "saturation": 0.12350597609561743,
+        "brightness": 0.984313725490196,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08333333333333333,
+        "saturation": 0.12955465587044535,
+        "brightness": 0.9686274509803922,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08108108108108109,
+        "saturation": 0.15226337448559665,
+        "brightness": 0.9529411764705882,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08914728682170546,
+        "saturation": 0.1791666666666666,
         "brightness": 0.9411764705882353,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03968253968253974,
-        "saturation": 0.1772151898734178,
+        "hue": 0.09057971014492751,
+        "saturation": 0.19409282700421943,
         "brightness": 0.9294117647058824,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03703703703703703,
-        "saturation": 0.1914893617021276,
-        "brightness": 0.9215686274509803,
+        "hue": 0.06504065040650403,
+        "saturation": 0.168032786885246,
+        "brightness": 0.9568627450980393,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.036231884057971085,
-        "saturation": 0.19827586206896555,
-        "brightness": 0.9098039215686274,
+        "hue": 0.061728395061728426,
+        "saturation": 0.21951219512195125,
+        "brightness": 0.9647058823529412,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03741496598639452,
-        "saturation": 0.21304347826086956,
-        "brightness": 0.9019607843137255,
+        "hue": 0.060897435897435875,
+        "saturation": 0.21576763485477174,
+        "brightness": 0.9450980392156862,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03594771241830063,
-        "saturation": 0.22466960352422904,
+        "hue": 0.08064516129032259,
+        "saturation": 0.13025210084033614,
+        "brightness": 0.9333333333333333,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.09523809523809519,
+        "saturation": 0.1714285714285715,
+        "brightness": 0.9607843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08333333333333333,
+        "saturation": 0.20661157024793386,
+        "brightness": 0.9490196078431372,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.09047619047619049,
+        "saturation": 0.29288702928870297,
+        "brightness": 0.9372549019607843,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0720720720720721,
+        "saturation": 0.15811965811965806,
+        "brightness": 0.9176470588235294,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08333333333333333,
+        "saturation": 0.19047619047619052,
+        "brightness": 0.9058823529411765,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0634920634920635,
+        "saturation": 0.17948717948717946,
+        "brightness": 0.9176470588235294,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06589147286821706,
+        "saturation": 0.18942731277533037,
         "brightness": 0.8901960784313725,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.03703703703703708,
-        "saturation": 0.24000000000000005,
-        "brightness": 0.8823529411764706,
+        "hue": 0.08666666666666666,
+        "saturation": 0.21276595744680848,
+        "brightness": 0.9215686274509803,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.038690476190476136,
-        "saturation": 0.25225225225225223,
-        "brightness": 0.8705882352941177,
+        "hue": 0.07407407407407411,
+        "saturation": 0.2625,
+        "brightness": 0.9411764705882353,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.04022988505747129,
-        "saturation": 0.2648401826484018,
-        "brightness": 0.8588235294117647,
+        "hue": 0.10555555555555557,
+        "saturation": 0.1282051282051281,
+        "brightness": 0.9176470588235294,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.04444444444444445,
-        "saturation": 0.27777777777777773,
-        "brightness": 0.8470588235294118,
+        "hue": 0.08156028368794321,
+        "saturation": 0.1934156378600822,
+        "brightness": 0.9529411764705882,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.04098360655737705,
-        "saturation": 0.2863849765258216,
-        "brightness": 0.8352941176470589,
+        "hue": 0.07843137254901962,
+        "saturation": 0.21794871794871792,
+        "brightness": 0.9176470588235294,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.042328042328042326,
-        "saturation": 0.30000000000000004,
-        "brightness": 0.8235294117647058,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.046153846153846136,
-        "saturation": 0.31400966183574874,
-        "brightness": 0.8117647058823529,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.047263681592039836,
-        "saturation": 0.32843137254901966,
-        "brightness": 0.8,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.048309178743961324,
-        "saturation": 0.3432835820895522,
-        "brightness": 0.788235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04929577464788735,
-        "saturation": 0.35858585858585856,
-        "brightness": 0.7764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04861111111111111,
-        "saturation": 0.3692307692307692,
-        "brightness": 0.7647058823529411,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05022831050228312,
-        "saturation": 0.3821989528795811,
-        "brightness": 0.7490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05043859649122807,
-        "saturation": 0.40211640211640215,
-        "brightness": 0.7411764705882353,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.051282051282051315,
-        "saturation": 0.4193548387096774,
-        "brightness": 0.7294117647058823,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05063291139240506,
-        "saturation": 0.4316939890710383,
-        "brightness": 0.7176470588235294,
+        "hue": 0.057471264367816056,
+        "saturation": 0.24166666666666664,
+        "brightness": 0.9411764705882353,
         "alpha": 1,
         "colorSpace": 0
       }
@@ -10152,215 +7992,431 @@ export const palettePresets = [
     "category": "Skin Tone Foundations"
   },
   {
-    "name": "Very Fair - Neutral Pinkish Ivory",
+    "name": "Image Sampler - Medium Cool/Neutral Range (Beige/Rosy/Ash)",
     "swatches": [
       {
-        "hue": 0.03703703703703692,
-        "saturation": 0.03529411764705881,
-        "brightness": 1,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.04166666666666686,
-        "saturation": 0.047430830039525744,
-        "brightness": 0.9921568627450981,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.049019607843137365,
-        "saturation": 0.06772908366533864,
-        "brightness": 0.984313725490196,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.047619047619047485,
-        "saturation": 0.08433734939759029,
-        "brightness": 0.9764705882352941,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.053333333333333344,
-        "saturation": 0.10121457489878541,
-        "brightness": 0.9686274509803922,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05172413793103445,
-        "saturation": 0.11836734693877554,
-        "brightness": 0.9607843137254902,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.05555555555555566,
-        "saturation": 0.13636363636363635,
+        "hue": 0.08536585365853665,
+        "saturation": 0.16942148760330578,
         "brightness": 0.9490196078431372,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06018518518518521,
-        "saturation": 0.15126050420168072,
-        "brightness": 0.9333333333333333,
+        "hue": 0.07196969696969702,
+        "saturation": 0.18565400843881863,
+        "brightness": 0.9294117647058824,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06250000000000001,
-        "saturation": 0.1702127659574468,
-        "brightness": 0.9215686274509803,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.0643939393939394,
-        "saturation": 0.18965517241379304,
-        "brightness": 0.9098039215686274,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06597222222222218,
-        "saturation": 0.2096069868995633,
+        "hue": 0.06802721088435369,
+        "saturation": 0.21397379912663753,
         "brightness": 0.8980392156862745,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06535947712418298,
-        "saturation": 0.22666666666666663,
-        "brightness": 0.8823529411764706,
+        "hue": 0.06666666666666664,
+        "saturation": 0.23364485981308408,
+        "brightness": 0.8392156862745098,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06481481481481484,
-        "saturation": 0.24324324324324326,
-        "brightness": 0.8705882352941177,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06609195402298852,
-        "saturation": 0.2648401826484018,
-        "brightness": 0.8588235294117647,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06388888888888888,
-        "saturation": 0.2790697674418605,
-        "brightness": 0.8431372549019608,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06510416666666666,
-        "saturation": 0.3018867924528302,
-        "brightness": 0.8313725490196079,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06467661691542288,
-        "saturation": 0.3205741626794258,
+        "hue": 0.072463768115942,
+        "saturation": 0.3301435406698564,
         "brightness": 0.8196078431372549,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06338028169014082,
-        "saturation": 0.34299516908212563,
-        "brightness": 0.8117647058823529,
+        "hue": 0.0666666666666667,
+        "saturation": 0.35175879396984927,
+        "brightness": 0.7803921568627451,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06756756756756756,
-        "saturation": 0.3627450980392158,
+        "hue": 0.0614035087719298,
+        "saturation": 0.4064171122994652,
+        "brightness": 0.7333333333333333,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0601851851851852,
+        "saturation": 0.42857142857142855,
+        "brightness": 0.6588235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08333333333333333,
+        "saturation": 0.19047619047619052,
+        "brightness": 0.9058823529411765,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06589147286821706,
+        "saturation": 0.18942731277533037,
+        "brightness": 0.8901960784313725,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07638888888888891,
+        "saturation": 0.2162162162162162,
+        "brightness": 0.8705882352941177,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06666666666666664,
+        "saturation": 0.23364485981308408,
+        "brightness": 0.8392156862745098,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.05434782608695652,
+        "saturation": 0.22330097087378645,
+        "brightness": 0.807843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.05319148936170214,
+        "saturation": 0.23857868020304568,
+        "brightness": 0.7725490196078432,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.049999999999999926,
+        "saturation": 0.26315789473684204,
+        "brightness": 0.7450980392156863,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04807692307692307,
+        "saturation": 0.28571428571428575,
+        "brightness": 0.7137254901960784,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04807692307692307,
+        "saturation": 0.3023255813953489,
+        "brightness": 0.6745098039215687,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04629629629629626,
+        "saturation": 0.32926829268292684,
+        "brightness": 0.6431372549019608,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06306306306306313,
+        "saturation": 0.17535545023696675,
+        "brightness": 0.8274509803921568,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06097560975609754,
+        "saturation": 0.20098039215686286,
         "brightness": 0.8,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06493506493506492,
-        "saturation": 0.38308457711442784,
-        "brightness": 0.788235294117647,
+        "hue": 0.062015503875968964,
+        "saturation": 0.2193877551020409,
+        "brightness": 0.7686274509803922,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06458333333333334,
-        "saturation": 0.40404040404040403,
-        "brightness": 0.7764705882352941,
+        "hue": 0.060283687943262394,
+        "saturation": 0.2486772486772487,
+        "brightness": 0.7411764705882353,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.06224899598393576,
-        "saturation": 0.4256410256410256,
-        "brightness": 0.7647058823529411,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06274509803921566,
-        "saturation": 0.4450261780104712,
-        "brightness": 0.7490196078431373,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.06130268199233718,
-        "saturation": 0.4627659574468086,
-        "brightness": 0.7372549019607844,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.061797752808988755,
-        "saturation": 0.483695652173913,
-        "brightness": 0.7215686274509804,
-        "alpha": 1,
-        "colorSpace": 0
-      },
-      {
-        "hue": 0.060439560439560426,
-        "saturation": 0.5027624309392265,
+        "hue": 0.05782312925170067,
+        "saturation": 0.27071823204419887,
         "brightness": 0.7098039215686275,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.05913978494623658,
-        "saturation": 0.5224719101123596,
-        "brightness": 0.6980392156862745,
+        "hue": 0.0555555555555555,
+        "saturation": 0.2947976878612717,
+        "brightness": 0.6784313725490196,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.058510638297872335,
-        "saturation": 0.5402298850574713,
-        "brightness": 0.6823529411764706,
+        "hue": 0.05345911949685533,
+        "saturation": 0.3212121212121213,
+        "brightness": 0.6470588235294118,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.057291666666666664,
-        "saturation": 0.5614035087719298,
-        "brightness": 0.6705882352941176,
+        "hue": 0.05151515151515151,
+        "saturation": 0.3503184713375796,
+        "brightness": 0.615686274509804,
         "alpha": 1,
         "colorSpace": 0
       },
       {
-        "hue": 0.05612244897959184,
-        "saturation": 0.5833333333333333,
+        "hue": 0.051724137931034496,
+        "saturation": 0.3866666666666667,
+        "brightness": 0.5882352941176471,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04999999999999998,
+        "saturation": 0.4225352112676056,
+        "brightness": 0.5568627450980392,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.051075268817204304,
+        "saturation": 0.4626865671641791,
+        "brightness": 0.5254901960784314,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.04947916666666668,
+        "saturation": 0.5,
+        "brightness": 0.5019607843137255,
+        "alpha": 1,
+        "colorSpace": 0
+      }
+    ],
+    "category": "Skin Tone Foundations"
+  },
+  {
+    "name": "Image Sampler - Medium Warm Range (Peach/Golden/Caramel)",
+    "swatches": [
+      {
+        "hue": 0.0925925925925926,
+        "saturation": 0.2259414225941423,
+        "brightness": 0.9372549019607843,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06999999999999995,
+        "saturation": 0.2155172413793103,
+        "brightness": 0.9098039215686274,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06666666666666668,
+        "saturation": 0.2654867256637168,
+        "brightness": 0.8862745098039215,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07526881720430102,
+        "saturation": 0.28054298642533937,
+        "brightness": 0.8666666666666667,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06874999999999999,
+        "saturation": 0.37383177570093457,
+        "brightness": 0.8392156862745098,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07843137254901962,
+        "saturation": 0.33830845771144274,
+        "brightness": 0.788235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06666666666666665,
+        "saturation": 0.39473684210526316,
+        "brightness": 0.7450980392156863,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06439393939393938,
+        "saturation": 0.4835164835164835,
+        "brightness": 0.7137254901960784,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06802721088435369,
+        "saturation": 0.21397379912663753,
+        "brightness": 0.8980392156862745,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.062146892655367186,
+        "saturation": 0.2633928571428571,
+        "brightness": 0.8784313725490196,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06127450980392157,
+        "saturation": 0.31050228310502276,
+        "brightness": 0.8588235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.06666666666666667,
+        "saturation": 0.37914691943127965,
+        "brightness": 0.8274509803921568,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08139534883720928,
+        "saturation": 0.4215686274509804,
+        "brightness": 0.8,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08058608058608056,
+        "saturation": 0.4715025906735751,
+        "brightness": 0.7568627450980392,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08080808080808083,
+        "saturation": 0.5380434782608696,
+        "brightness": 0.7215686274509804,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0794392523364486,
+        "saturation": 0.6079545454545455,
+        "brightness": 0.6901960784313725,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07207207207207207,
+        "saturation": 0.34259259259259256,
+        "brightness": 0.8470588235294118,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07058823529411765,
+        "saturation": 0.40669856459330145,
+        "brightness": 0.8196078431372549,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07092198581560281,
+        "saturation": 0.46766169154228854,
+        "brightness": 0.788235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07051282051282053,
+        "saturation": 0.5360824742268041,
+        "brightness": 0.7607843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07079646017699116,
+        "saturation": 0.6042780748663101,
+        "brightness": 0.7333333333333333,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07046070460704605,
+        "saturation": 0.6833333333333333,
+        "brightness": 0.7058823529411765,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.057471264367816105,
+        "saturation": 0.5178571428571429,
         "brightness": 0.6588235294117647,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.0851851851851852,
+        "saturation": 0.4147465437788018,
+        "brightness": 0.8509803921568627,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.08247422680412372,
+        "saturation": 0.470873786407767,
+        "brightness": 0.807843137254902,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07852564102564104,
+        "saturation": 0.5306122448979592,
+        "brightness": 0.7686274509803922,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07522123893805309,
+        "saturation": 0.601063829787234,
+        "brightness": 0.7372549019607844,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07377049180327867,
+        "saturation": 0.6777777777777778,
+        "brightness": 0.7058823529411765,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07733333333333332,
+        "saturation": 0.7530120481927711,
+        "brightness": 0.6509803921568628,
+        "alpha": 1,
+        "colorSpace": 0
+      },
+      {
+        "hue": 0.07702020202020202,
+        "saturation": 0.8354430379746836,
+        "brightness": 0.6196078431372549,
         "alpha": 1,
         "colorSpace": 0
       }
