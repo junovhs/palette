@@ -85,12 +85,44 @@ export function colorDistance(color1, color2) {
     const rDiff = color1.r - color2.r;
     const gDiff = color1.g - color2.g;
     const bDiff = color1.b - color2.b;
-    
+
     return Math.sqrt(
         rDiff * rDiff * 0.3 +
         gDiff * gDiff * 0.59 +
         bDiff * bDiff * 0.11
     );
+}
+
+// Calculate relative luminance and determine contrast color (black or white)
+export function getContrastColor(r, g, b) {
+    // Normalize RGB values to 0-1
+    const rNorm = r / 255;
+    const gNorm = g / 255;
+    const bNorm = b / 255;
+
+    // Apply gamma correction (standard for sRGB)
+    const gammaCorrect = (c) => c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+    const rGamma = gammaCorrect(rNorm);
+    const gGamma = gammaCorrect(gNorm);
+    const bGamma = gammaCorrect(bNorm);
+
+    // Calculate relative luminance
+    const luminance = 0.2126 * rGamma + 0.7152 * gGamma + 0.0722 * bGamma;
+
+    // Use black text for light backgrounds, white text for dark backgrounds
+    // Threshold adjusted slightly for better readability on mid-tones
+    return luminance > 0.4 ? '#000000' : '#FFFFFF';
+}
+
+// Helper function to categorize hue
+export function getHueCategory(h) {
+    if ((h >= 345 && h <= 360) || (h >= 0 && h < 15)) return 'red';
+    if (h >= 15 && h < 45) return 'orange';
+    if (h >= 45 && h < 70) return 'yellow';
+    if (h >= 70 && h < 160) return 'green';
+    if (h >= 160 && h < 250) return 'blue';
+    if (h >= 250 && h < 345) return 'violet'; // Combined Indigo/Violet
+    return null; // Should not happen if saturation/lightness checks pass
 }
 
 // New function to filter out similar colors
@@ -119,7 +151,7 @@ function filterSimilarColors(colors, minDistance = 10) {
 }
 
 // Main image analysis function
-export function analyzeImage(image, numColors, mode = "dominant", config) {
+export function analyzeImage(image, numColors, mode = "dominant", config, activeColorRanges = null) {
     // Create a canvas to analyze the image
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
@@ -135,8 +167,8 @@ export function analyzeImage(image, numColors, mode = "dominant", config) {
     const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     const data = imageData.data;
     
-    // Sample colors from the image
-    const sampledColors = sampleColors(data, canvas.width, canvas.height, config);
+    // Sample colors from the image, passing active ranges
+    const sampledColors = sampleColors(data, canvas.width, canvas.height, config, activeColorRanges);
     
     // For single color count request, return just that count
     if (numColors) {
@@ -151,9 +183,13 @@ export function analyzeImage(image, numColors, mode = "dominant", config) {
     return allPalettes;
 }
 
-function sampleColors(data, width, height, config) {
+function sampleColors(data, width, height, config, activeColorRanges = null) {
     const sampledColors = [];
     const samplingRate = 5; // Sample every 5 pixels
+    
+    // Create a default active set if none provided (all colors active)
+    const defaultRanges = new Set(['red', 'orange', 'yellow', 'green', 'blue', 'violet', 'neutral']);
+    const activeRanges = activeColorRanges instanceof Set && activeColorRanges.size > 0 ? activeColorRanges : defaultRanges;
     
     for (let y = 0; y < height; y += samplingRate) {
         for (let x = 0; x < width; x += samplingRate) {
@@ -167,8 +203,22 @@ function sampleColors(data, width, height, config) {
             
             // Convert to HSL to filter out very dark, light or desaturated colors
             const hsl = rgbToHsl(r, g, b);
-            
-            if (hsl.s < 5 || hsl.l < 15 || hsl.l > 85) continue;
+
+            // Check if the color should be included based on active ranges
+            let category = 'neutral'; // Default to neutral
+            if (hsl.s >= config.minSaturation && hsl.l >= config.minLightness && hsl.l <= config.maxLightness) {
+                category = getHueCategory(hsl.h) || 'neutral'; // Get category for saturated colors
+            }
+
+            // Include the color only if its category is in the active set
+            if (!activeRanges.has(category)) {
+                continue;
+            }
+
+            // Also apply the original saturation/lightness filters IF it's not explicitly requested as neutral
+            if (category !== 'neutral' && (hsl.s < config.minSaturation || hsl.l < config.minLightness || hsl.l > config.maxLightness)) {
+                continue; // Skip low/high sat/light colors unless 'neutral' is explicitly active
+            }
             
             sampledColors.push({ r, g, b });
         }

@@ -558,11 +558,17 @@ footer {
 
 .preset-tabs {
     display: flex;
-    flex-wrap: wrap; 
+    overflow-x: auto;
     gap: 8px;
-    padding-bottom: 1rem; 
+    padding-bottom: 8px;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--border-color);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.preset-tabs::-webkit-scrollbar {
+    display: none;
 }
 
 .preset-tab {
@@ -636,61 +642,6 @@ footer {
 .mini-swatch {
     height: 100%;
     width: 100%;
-}
-
-.info-icon-container {
-    position: relative; 
-    display: inline-flex; 
-    align-items: center;
-    margin-left: 8px; 
-}
-
-.info-icon {
-    width: 20px;
-    height: 20px;
-    fill: #888; 
-    cursor: help; 
-    transition: fill 0.2s ease;
-}
-
-.info-icon:hover {
-    fill: var(--primary-color); 
-}
-
-.tooltip-text {
-    visibility: hidden; 
-    opacity: 0;
-    width: 250px; 
-    background-color: rgba(44, 62, 80, 0.9); 
-    color: #fff; 
-    text-align: left;
-    border-radius: 6px;
-    padding: 10px;
-    position: absolute;
-    z-index: 10;
-    bottom: 125%; 
-    left: 50%;
-    margin-left: -125px; 
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    font-size: 0.85rem;
-    line-height: 1.4;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.tooltip-text::after {
-    content: "";
-    position: absolute;
-    top: 100%; 
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(44, 62, 80, 0.9) transparent transparent transparent; 
-}
-
-.info-icon-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
 }
 
 @media (max-width: 768px) {

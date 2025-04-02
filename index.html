@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Color Palette Extractor</title>
+  <title>Pro Palette</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
@@ -11,7 +11,20 @@
     {
       "imports": {
         "app": "./app.js",
-        "config": "./config.js"
+        "config": "./config.js",
+        "./colorUtils.js": "./colorUtils.js",
+        "./config.js": "./config.js",
+        "./ui-helpers.js": "./ui-helpers.js",
+        "./paletteNaming.js": "./paletteNaming.js",
+        "./colorFilters.js": "./colorFilters.js",
+        "./paletteEffects.js": "./paletteEffects.js",
+        "./utils.js": "./utils.js",
+        "./paletteSimplifier.js": "./paletteSimplifier.js",
+        "./colorWarmCool.js": "./colorWarmCool.js",
+        "./paletteLibrary.js": "./paletteLibrary.js",
+        "./clipboardUtils.js": "./clipboardUtils.js",
+        "./paletteStateManager.js": "./paletteStateManager.js",
+        "./presets.js": "./presets.js"
       }
     }
   </script>
@@ -20,7 +33,7 @@
   <div class="app-container">
     <header>
       <h1>Pro Palette</h1>
-      <a href="https://tiptopbrushes.com/" style="position: absolute; top: 10px; right: 10px;">
+      <a href="https://tiptopbrushes.com/" style="position: absolute; top: 10px; right: 10px;" target="_blank" rel="noopener noreferrer">
         <img src="wide_fullcolor.svg" alt="TipTop Digital Foundry" width="100">
       </a>
     </header>
@@ -29,26 +42,46 @@
       <div class="image-container">
         <div class="upload-area" id="upload-area">
           <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 16L12 8" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-            <path d="M9 11L12 8L15 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M8 16H16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-            <rect x="2" y="2" width="20" height="20" rx="5" stroke="#ffffff" stroke-width="2" />
+            <path d="M12 16L12 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="M9 11L12 8L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M8 16H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" />
           </svg>
           <p>Drop image here or click to upload</p>
           <p>You can also paste from clipboard (Ctrl+V)</p>
-          <input type="file" id="file-input" accept="image/*" hidden />
         </div>
+        <input type="file" id="file-input" accept="image/*" hidden />
         <button id="upload-button" class="upload-button">Upload Image</button>
       </div>
 
+      <!-- Add Color Filter Buttons -->
+      <div class="color-filter-buttons" id="color-filter-buttons">
+        <button class="color-filter-btn active" data-color="red">Red</button>
+        <button class="color-filter-btn active" data-color="orange">Orange</button>
+        <button class="color-filter-btn active" data-color="yellow">Yellow</button>
+        <button class="color-filter-btn active" data-color="green">Green</button>
+        <button class="color-filter-btn active" data-color="blue">Blue</button>
+        <button class="color-filter-btn active" data-color="violet">Violet</button>
+        <button class="color-filter-btn active" data-color="neutral">Neutral</button>
+        
+        <div class="info-icon-container">
+          <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
+          </svg>
+          <span class="tooltip-text">
+            Click these buttons to include or exclude specific color ranges (like reds, blues, etc.) from the palette extraction process. When a button is active (colored), that range is included. Deactivate buttons to focus the palette on the remaining colors.
+          </span>
+        </div>
+      </div>
+      <!-- End Color Filter Buttons -->
+
       <div class="palette-section">
-        <!-- Palette view is at the top -->
         <div id="palette-view" class="palette-view">
           <div class="palette-container" id="palette-container">
             <div class="palette-title-row">
               <div class="title-edit-container">
                 <h2 id="palette-title">New palette</h2>
-                <input type="text" id="palette-title-input" maxlength="20" />
+                <input type="text" id="palette-title-input" maxlength="30" />
                 <svg id="edit-pencil-icon" class="pencil-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
                 </svg>
@@ -118,7 +151,6 @@
         </div>
         <div id="copy-message" class="copy-message">Copied to clipboard!</div>
 
-        <!-- Preset Library appears below the palette view -->
         <div class="preset-library-section">
           <div class="preset-library-title">Palette Presets</div>
           <div id="preset-library-container">

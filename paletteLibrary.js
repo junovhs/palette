@@ -94,10 +94,10 @@ export function initPresetLibrary(onSelectPreset) {
             
             // Create preset swatch preview
             const presetSwatches = document.createElement('div');
-            presetSwatches.className = 'preset-swatches';
+            presetSwatches.className = 'preset-swatches'; // Grid defined in CSS
             
-            // Create mini swatches for preview
-            preset.swatches.slice(0, 15).forEach(swatch => {
+            // Create mini swatches for preview - show all 30
+            preset.swatches.slice(0, 30).forEach(swatch => {
                 const rgb = hsbToRgb(swatch.hue, swatch.saturation, swatch.brightness);
                 const swatchElem = document.createElement('div');
                 swatchElem.className = 'mini-swatch';
